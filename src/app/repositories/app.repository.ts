@@ -13,7 +13,7 @@ export class UserRepository {
         .pipe(csvParser())
         .on('data', (data) => {
             // if(data.country == "AFG") {
-                this.results.push(new Plants(data.country, data.country_long, data.name, parseFloat(data.capacity_mw), {"coordinates": [parseFloat(data.longitude), parseFloat(data.latitude)]}, data.primary_fuel))
+                this.results.push(new Plants(data.country, data.country_long, data.name, parseFloat(data.capacity_mw), [parseFloat(data.longitude), parseFloat(data.latitude)], data.primary_fuel))
             // }
         });
         await finished(parse);

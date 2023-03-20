@@ -7,10 +7,10 @@ export class Plants implements PowerPLants {
     capacity: number;
     // latitude: number;
     // longitude: number;
-    geometry: Object;
+    geometry: Array<number>;
     primaryfuel: string;
 
-    constructor(country: string, country_name: string, name: string, capacity: number, geometry: Object, primaryfuel: string) {
+    constructor(country: string, country_name: string, name: string, capacity: number, geometry: Array<number>, primaryfuel: string) {
         this.country = country;
         this.country_name = country_name;
         this.name = name;

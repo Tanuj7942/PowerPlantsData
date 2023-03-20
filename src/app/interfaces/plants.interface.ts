@@ -5,6 +5,6 @@ export interface PowerPLants {
     capacity: number;
     // latitude: number;
     // longitude: number;
-    geometry: Object;
+    geometry: Array<number>;
     primaryfuel: string;
 }
