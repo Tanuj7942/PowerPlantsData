@@ -12,9 +12,9 @@ export class UserRepository {
         const parse = fs.createReadStream('Data/Tanuj/global_power_plant_database.csv')
         .pipe(csvParser())
         .on('data', (data) => {
-            // if(data.country == "AFG") {
+            if(data.country == "USA") {
                 this.results.push(new Plants(data.country, data.country_long, data.name, parseFloat(data.capacity_mw), [parseFloat(data.longitude), parseFloat(data.latitude)], data.primary_fuel))
-            // }
+            }
         });
         await finished(parse);
         return this.results;

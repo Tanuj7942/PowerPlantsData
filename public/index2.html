@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    
-    <title>Marker on the Map</title>
-    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
-    <link rel="stylesheet" type="text/css" href="index2.css" />
-    <link rel="stylesheet" type="text/css" href="../template.css" />
-    <script type="text/javascript" src='../test-credentials.js'></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
-  <script>window.ENV_VARIABLE = 'developer.here.com'</script><script src='../iframeheight.js'></script></head>
-  <body id="markers-on-the-map">
-    <div id="map"></div>
-    <script type="text/javascript" src='index2.js'></script>
-  </body>
+
+<head>
+  <title>Leaflet Cluster Example</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel = "stylesheet" href = "https://unpkg.com/leaflet@1.1.0/dist/leaflet.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+  <script src = "https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"></script>
+  <script type='text/javascript'
+    src='https://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster.js'></script>
+    <link rel="stylesheet" href="index2.css">
+</head>
+
+<body>
+  <div id="map"></div>
+  <div class="plants-type">
+    <ul>
+        <li><span><img src="../Icons/icons8-hydro-60.png" alt=""></span>Hydro</li>
+        <li><span><img src="../Icons/icons8-oil-64.png" alt=""></span>Oil</li>
+        <li><span><img src="../Icons/icons8-gas-64.png" alt=""></span>Gas</li>
+        <li><span><img src="../Icons/icons8-solar-60.png" alt=""></span>Solar</li>
+        <li><span><img src="../Icons/icons8-wind-64.png" alt=""></span>Wind</li>
+        <li><span><img src="../Icons/icons8-coal-100.png" alt=""></span>Coal</li>
+        <li><span><img src="../Icons/icons8-nuclear-64.png" alt=""></span>Nuclear</li>
+        <li><span><img src="../Icons/icons8-wastes-64.png" alt=""></span>Waste</li>
+        <li><span><img src="../Icons/icons8-biomass-64.png" alt=""></span>Biomass</li>
+        <li><span><img src="../Icons/icons8-sea-waves-64.png" alt=""></span>Wave & Tidal</li>
+        <li><span><img src="../Icons/pngwing.com.png" alt=""></span>Petcoke</li>
+        <li><span><img src="../Icons/icons8-geothermal-energy-64.png" alt=""></span>Geothermal</li>
+        <li><span><img src="../Icons/icons8-storage-50.png" alt=""></span>Storage</li>
+        <li><span><img src="../Icons/power-plant.png" alt=""></span>Cogeneration</li>
+        <li><span><img src="mapbox-icon.png" alt=""></span>Other</li>
+    </ul>
+</div>
+  <script type='text/javascript' src='index2.js'></script>
+</body>
+
 </html>
