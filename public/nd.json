@@ -1,0 +1,2851 @@
+{
+    "data": {
+        "id": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+        "type": "dataset",
+        "attributes": {
+            "name": "Global Power Plant Database",
+            "slug": "Powerwatch",
+            "type": "tabular",
+            "subtitle": "Global open database of power plants, created by Google/WRI/Global Energy Observatory/KTH University/University of Groningen",
+            "application": [
+                "rw"
+            ],
+            "dataPath": "",
+            "attributesPath": null,
+            "connectorType": "rest",
+            "provider": "cartodb",
+            "userId": "5980838ae24e6a1dae3dd446",
+            "connectorUrl": "https://wri-rw.carto.com/tables/powerwatch_data_20180102/public",
+            "sources": [],
+            "tableName": "powerwatch_data_20180102",
+            "status": "saved",
+            "published": true,
+            "overwrite": false,
+            "subscribable": {},
+            "mainDateField": null,
+            "env": "production",
+            "applicationConfig": {
+                "rw": {
+                    "highlighted": "false",
+                    "layerOrder": [
+                        "f0bb4a22-ac63-4cd0-8bea-1ced880add03",
+                        "e7ff7ca9-27f3-440b-9633-a5fd477f3283",
+                        "2a694289-fec9-4bfe-a6d2-56c3864ec349",
+                        "5868a183-0f99-4c6d-93d1-8ddb7b4f2784",
+                        "155968b5-7c59-4065-9e3a-0a81d52d50de",
+                        "a772d7cb-4d53-477a-a951-bf93d640ce6c",
+                        "d0a1ae43-6a14-443b-86d6-d01dfac842fa"
+                    ]
+                }
+            },
+            "geoInfo": true,
+            "protected": false,
+            "legend": {
+                "date": [],
+                "region": [],
+                "country": [],
+                "nested": [],
+                "integer": [],
+                "short": [],
+                "byte": [],
+                "double": [],
+                "float": [],
+                "half_float": [],
+                "scaled_float": [],
+                "boolean": [],
+                "binary": [],
+                "text": [],
+                "keyword": []
+            },
+            "clonedHost": {},
+            "errorMessage": "",
+            "taskId": null,
+            "createdAt": "2019-06-13T21:08:22.971Z",
+            "updatedAt": "2021-08-25T23:13:14.778Z",
+            "dataLastUpdated": null,
+            "metadata": [
+                {
+                    "id": "5a983cafe4adac001243c2bc",
+                    "type": "metadata",
+                    "attributes": {
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "application": "rw",
+                        "resource": {
+                            "id": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                            "type": "dataset"
+                        },
+                        "language": "en",
+                        "name": "Global Power Plant Database",
+                        "description": "### Overview  \n  \nThe Global Power Plant Database is a comprehensive, open source database of power plants around the world. It centralizes power plant data to make it easier to navigate, compare, and draw insights for one’s own analysis. The database covers approximately 30,000 power plants from 164 countries and includes thermal plants (e.g., coal, gas, oil, nuclear, biomass, waste, geothermal) and renewables (e.g., hydro, wind, solar). Each power plant is geolocated, and entries contain information on plant capacity, generation, ownership, and fuel type. The database will be continuously updated as data becomes available.   \n  \n### Methodology  \n  \nThe Global Power Plant Database leverages existing data sources and methodologies to build a comprehensive and open-access power sector database. The database was built entirely from open sources, which are publicly available on the internet, including data from national government agencies, reports from companies that build power plants or provide their components, data from public utilities, and information from multinational organizations. Currently the Global Power Plant Database uses more than 600 sources to create the database.  \n  \n### Additional Information  \n  \nResource Watch shows only a subset of the dataset. For access to the full dataset and additional information, click on the “Learn more” button.  \n  \n### Visualizing the Data  \n  \nOur team reformatted this dataset before displaying it on Resource Watch. Coordinates provided in the source data were used to map this data for display on Resource Watch.   \n  \n### Disclaimer  \n  \nExcerpts of this description page were taken from the source metadata.",
+                        "source": "Global Energy Observatory/Google/KTH Royal Institute of Technology in Stockholm/Enipedia/World Resources Institute",
+                        "info": {
+                            "rwId": "ene.013.rw0",
+                            "data_type": "Vector",
+                            "name": "Global Power Plant Database",
+                            "sources": [
+                                {
+                                    "source-name": "",
+                                    "id": 0,
+                                    "source-description": "Global Energy Observatory"
+                                },
+                                {
+                                    "source-name": "",
+                                    "id": 1,
+                                    "source-description": "Google"
+                                },
+                                {
+                                    "source-name": "",
+                                    "id": 2,
+                                    "source-description": "KTH Royal Institute of Technology in Stockholm"
+                                },
+                                {
+                                    "source-name": "",
+                                    "id": 3,
+                                    "source-description": "Enipedia"
+                                },
+                                {
+                                    "source-name": "",
+                                    "id": 4,
+                                    "source-description": "World Resources Institute"
+                                }
+                            ],
+                            "technical_title": "Global Power Plant Database v1.2.0",
+                            "functions": "A comprehensive, global, open source database of power plants",
+                            "cautions": "- The \"Primary Fuel\" is the fuel that has been identified to provide the largest portion of generated electricity for the plant or has been identified as the primary fuel by the data source.\nFor power plants that have data in multiple \"Other Fuel\" fields, the ordering of the fuels should not be taken to indicate any priority or preference of the fuel for operating the power plant or generating units.\nThough the \"Other Fuel\" columns in the database are numbered sequentially from 1, the ordering is insignificant.\n- Generation is provided at the year scale for the years 2013-2017. The generation values may correspond to a calendar year or a fiscal or regulatory year; no distinction is provided in the database.",
+                            "citation": "Global Energy Observatory, Google, KTH Royal Institute of Technology in Stockholm, Enipedia, World Resources Institute. 2019. Global Power Plant Database v1.2.0. Published on Resource Watch (http://resourcewatch.org/) and Google Earth Engine (https://earthengine.google.com/). Accessed through Resource Watch, (date). [www.resourcewatch.org](https://www.resourcewatch.org).",
+                            "license": "Creative Commons Attribution 4.0 International",
+                            "license_link": "https://creativecommons.org/licenses/by/4.0/",
+                            "geographic_coverage": "Global",
+                            "spatial_resolution": null,
+                            "date_of_content": "circa 1892-2019",
+                            "frequency_of_updates": "Quarterly",
+                            "learn_more_link": "http://www.wri.org/publication/global-power-plant-database",
+                            "data_download_link": null,
+                            "data_download_original_link": "http://datasets.wri.org/dataset/globalpowerplantdatabase"
+                        },
+                        "columns": {
+                            "name": {
+                                "alias": "Power Plant ",
+                                "description": ""
+                            },
+                            "owner": {
+                                "alias": "Primary Owner",
+                                "description": "Primary, or reported, owner of the power plant"
+                            },
+                            "source": {
+                                "alias": "Data Source",
+                                "description": "Main source of data"
+                            },
+                            "url": {
+                                "alias": "URL Link"
+                            },
+                            "latitude": {
+                                "alias": "Latitude"
+                            },
+                            "longitude": {
+                                "alias": "Longitude"
+                            },
+                            "fuel1": {
+                                "alias": "Fuel 1",
+                                "description": "Fuel used in the power plant"
+                            },
+                            "fuel2": {
+                                "alias": "Fuel 2",
+                                "description": "Fuel used in the power plant"
+                            },
+                            "estimated_generation_gwh": {
+                                "alias": "Estimated Generation (GWh)",
+                                "description": "Estimated electricity generation for 2015 in gigawatt-hours"
+                            },
+                            "country": {
+                                "alias": "ISO Code",
+                                "description": ""
+                            },
+                            "commissioning_year": {
+                                "alias": "Commissioning Year",
+                                "description": "Year when the power plant began operations."
+                            },
+                            "capacity_mw": {
+                                "alias": "Capacity (MW)",
+                                "description": "Installed electrical capacity of the power plant in megawatts"
+                            },
+                            "generation_gwh_2016": {
+                                "alias": "2016 Reported Generation (GWh)",
+                                "description": "2016 reported electricity generation in gigawatt-hours"
+                            },
+                            "generation_gwh_2015": {
+                                "alias": "2015 Reported Generation (GWh)",
+                                "description": "2015 reported electricity generation in gigawatt-hours"
+                            },
+                            "country_long": {
+                                "description": "",
+                                "alias": "Country"
+                            },
+                            "generation_gwh_2013": {
+                                "alias": "2013 Reported Generation (GWh)",
+                                "description": "2013 reported electricity generation in gigawatt-hours"
+                            },
+                            "generation_gwh_2014": {
+                                "alias": "2014 Reported Generation (GWh)",
+                                "description": "2014 reported electricity generation in gigawatt-hours"
+                            },
+                            "fuel3": {
+                                "alias": "Fuel 3",
+                                "description": "Fuel used in the power plant"
+                            },
+                            "fuel4": {
+                                "alias": "Fuel 4",
+                                "description": "Fuel used in the power plant"
+                            },
+                            "geolocation_source": {
+                                "alias": "Geolocation data source"
+                            },
+                            "year_of_capacity_data": {
+                                "alias": "Year of capacity reported"
+                            },
+                            "gppd_idnr": {
+                                "alias": "Unique ID",
+                                "description": "A unique identifier assigned to this power plant"
+                            },
+                            "primary_fuel": {
+                                "alias": "Fuel",
+                                "description": "Primary fuel used in generation of electricity"
+                            },
+                            "generation_gwh_2017": {
+                                "alias": "2017 Reported Generation (GWh)",
+                                "description": "2017 reported electricity generation in gigawatt-hours"
+                            }
+                        },
+                        "createdAt": "2018-03-01T17:47:27.729Z",
+                        "updatedAt": "2022-03-18T04:57:39.549Z",
+                        "status": "published"
+                    }
+                }
+            ],
+            "layer": [
+                {
+                    "id": "f0bb4a22-ac63-4cd0-8bea-1ced880add03",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Coal Power Plants by Capacity (MW)",
+                        "slug": "Coal-Power-Plants-by-Capacity-MW",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global coal power plants by capacity in megawatts.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "58f63c81bd32c60206ed6b12",
+                        "default": false,
+                        "protected": false,
+                        "published": true,
+                        "env": "production",
+                        "layerConfig": {
+                            "account": "wri-rw",
+                            "body": {
+                                "layers": [
+                                    {
+                                        "options": {
+                                            "cartocss": "#powerwatch_data_20180102 { ::halo { marker-width: 20; marker-fill: #f0f0f0; marker-fill-opacity: 1; marker-line-color: #ffc100; marker-line-width: 0; marker-line-opacity: 1; marker-placement: point; marker-type: ellipse; marker-allow-overlap: true; opacity: 0.3;} marker-fill:#000000; marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0; marker-fill-opacity: 1.0; marker-width: 4.0+8.0*[capacity_mw]/740.0; [capacity_mw>740]{marker-width:16}}",
+                                            "cartocss_version": "2.3.0",
+                                            "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Coal' ORDER BY capacity_mw ASC"
+                                        },
+                                        "type": "mapnik"
+                                    }
+                                ],
+                                "maxzoom": 18,
+                                "minzoom": 3,
+                                "vectorLayers": [
+                                    {
+                                        "filter": [
+                                            "<",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #000000",
+                                            "circle-opacity": 1,
+                                            "circle-radius": [
+                                                "+",
+                                                4,
+                                                [
+                                                    "*",
+                                                    [
+                                                        "get",
+                                                        "capacity_mw"
+                                                    ],
+                                                    0.0105
+                                                ]
+                                            ],
+                                            "circle-stroke-color": " #f0f0f0",
+                                            "circle-stroke-opacity": 0.1,
+                                            "circle-stroke-width": {
+                                                "base": 4,
+                                                "stops": [
+                                                    [
+                                                        12,
+                                                        4
+                                                    ],
+                                                    [
+                                                        22,
+                                                        540
+                                                    ]
+                                                ]
+                                            }
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "filter": [
+                                            ">=",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #000000",
+                                            "circle-opacity": 1,
+                                            "circle-radius": 12,
+                                            "circle-stroke-color": " #f0f0f0",
+                                            "circle-stroke-opacity": 0.1,
+                                            "circle-stroke-width": {
+                                                "base": 4,
+                                                "stops": [
+                                                    [
+                                                        12,
+                                                        4
+                                                    ],
+                                                    [
+                                                        22,
+                                                        540
+                                                    ]
+                                                ]
+                                            }
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    }
+                                ]
+                            },
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Coal' ORDER BY capacity_mw ASC",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "filter": [
+                                            "<",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #000000",
+                                            "circle-opacity": 1,
+                                            "circle-radius": [
+                                                "+",
+                                                4,
+                                                [
+                                                    "*",
+                                                    [
+                                                        "get",
+                                                        "capacity_mw"
+                                                    ],
+                                                    0.0105
+                                                ]
+                                            ],
+                                            "circle-stroke-color": " #f0f0f0",
+                                            "circle-stroke-opacity": 0.1,
+                                            "circle-stroke-width": {
+                                                "base": 4,
+                                                "stops": [
+                                                    [
+                                                        12,
+                                                        4
+                                                    ],
+                                                    [
+                                                        22,
+                                                        540
+                                                    ]
+                                                ]
+                                            }
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "filter": [
+                                            ">=",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #000000",
+                                            "circle-opacity": 1,
+                                            "circle-radius": 12,
+                                            "circle-stroke-color": " #f0f0f0",
+                                            "circle-stroke-opacity": 0.1,
+                                            "circle-stroke-width": {
+                                                "base": 4,
+                                                "stops": [
+                                                    [
+                                                        12,
+                                                        4
+                                                    ],
+                                                    [
+                                                        22,
+                                                        540
+                                                    ]
+                                                ]
+                                            }
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "type": "basic",
+                            "items": [
+                                {
+                                    "name": "Capacity (1MW-740MW)",
+                                    "color": "#000000",
+                                    "id": 0
+                                }
+                            ]
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "column": "country",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Country",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "name",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Name",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "owner",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Owner",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "capacity_mw",
+                                    "format": "0,0",
+                                    "prefix": "",
+                                    "property": "Capacity",
+                                    "suffix": " MW",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "source",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Data Source",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T21:00:47.454Z",
+                        "updatedAt": "2021-12-22T17:32:27.363Z"
+                    }
+                },
+                {
+                    "id": "5868a183-0f99-4c6d-93d1-8ddb7b4f2784",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Power Plants by Capacity (MW)",
+                        "slug": "Capacity-MW_1",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global power plants by capacity in megawatts.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "5980838ae24e6a1dae3dd446",
+                        "default": false,
+                        "protected": false,
+                        "published": true,
+                        "env": "production",
+                        "layerConfig": {
+                            "account": "wri-rw",
+                            "body": {
+                                "maxzoom": 18,
+                                "layers": [
+                                    {
+                                        "type": "mapnik",
+                                        "options": {
+                                            "sql": "SELECT * FROM powerwatch_data_20180102 ORDER BY capacity_mw ASC",
+                                            "cartocss": "#powerwatch_data_20180102 {marker-fill:#0099CC; marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0;} [capacity_mw <= 1500] {marker-fill-opacity: 0.6;}[capacity_mw > 1500] {marker-fill-opacity: 0.8;} [capacity_mw > 1500]{marker-width: 12.0+8.0*[capacity_mw]/22500.0;} [capacity_mw <= 1500]{marker-width: 4.0+8.0*[capacity_mw]/1500.0;}",
+                                            "cartocss_version": "2.3.0"
+                                        }
+                                    }
+                                ],
+                                "vectorLayers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": "#0099CC",
+                                            "circle-stroke-width": 0.1,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.4,
+                                            "circle-stroke-opacity": 0.5,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102 ORDER BY capacity_mw ASC",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": "#0099CC",
+                                            "circle-stroke-width": 0.1,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.4,
+                                            "circle-stroke-opacity": 0.5,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "type": "basic",
+                            "items": [
+                                {
+                                    "name": "Capacity (1MW-22,500MW)",
+                                    "color": "#0099CC",
+                                    "id": 0
+                                }
+                            ]
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "column": "country_long",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Country",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "name",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Name",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "primary_fuel",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Fuel Type",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "owner",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Owner",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "capacity_mw",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Capacity",
+                                    "suffix": " MW",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "source",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Data Source",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T21:00:45.530Z",
+                        "updatedAt": "2021-12-22T17:32:29.051Z"
+                    }
+                },
+                {
+                    "id": "a772d7cb-4d53-477a-a951-bf93d640ce6c",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Hydro Power Plants by Capacity (MW)",
+                        "slug": "Hydro-Power-Plants-by-Capacity",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global hydroelectric power plants by capacity in megawatts.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "5b4fa642e995f09ac0e4a829",
+                        "default": false,
+                        "protected": false,
+                        "published": true,
+                        "env": "production",
+                        "layerConfig": {
+                            "body": {
+                                "layers": [
+                                    {
+                                        "options": {
+                                            "cartocss_version": "2.3.0",
+                                            "cartocss": "#powerwatch_data_20180102 { marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0;}[capacity_mw <= 1500] {marker-fill-opacity: 0.6;}[capacity_mw > 1500] {marker-fill-opacity: 0.8;} [capacity_mw > 1500]{marker-width: 12.0+8.0*[capacity_mw]/22500.0;} [capacity_mw <= 1500]{marker-width: 4.0+8.0*[capacity_mw]/1500.0;} [primary_fuel='Hydro']{marker-fill:#1F78B4;}",
+                                            "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Hydro' ORDER BY capacity_mw ASC"
+                                        },
+                                        "type": "mapnik"
+                                    }
+                                ],
+                                "maxzoom": 18,
+                                "vectorLayers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": "#1f78b4",
+                                            "circle-stroke-width": 0.2,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.9,
+                                            "circle-stroke-opacity": 0.7,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                [
+                                                    "get",
+                                                    "primary_fuel"
+                                                ],
+                                                "Hydro"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            "account": "wri-rw",
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Hydro' ORDER BY capacity_mw ASC",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": "#1f78b4",
+                                            "circle-stroke-width": 0.2,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.9,
+                                            "circle-stroke-opacity": 0.7,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                [
+                                                    "get",
+                                                    "primary_fuel"
+                                                ],
+                                                "Hydro"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "type": "basic",
+                            "items": [
+                                {
+                                    "name": "Capacity (1MW-22.5GW)",
+                                    "color": "#1F78B4",
+                                    "id": 0
+                                }
+                            ]
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Country",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "country_long"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Name",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "name"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Owner",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "owner"
+                                },
+                                {
+                                    "type": "number",
+                                    "suffix": " MW",
+                                    "property": "Capacity",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "capacity_mw"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Data Source",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "source"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T21:00:47.000Z",
+                        "updatedAt": "2021-12-22T17:32:32.678Z"
+                    }
+                },
+                {
+                    "id": "e7ff7ca9-27f3-440b-9633-a5fd477f3283",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Wind Power Plants by Capacity (MW)",
+                        "slug": "Wind-Power-Plants-by-Capacity-MW",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global wind power plants by capacity in megawatts.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "5981e73b0c069f3c93dc5e2a",
+                        "default": false,
+                        "protected": false,
+                        "published": true,
+                        "env": "production",
+                        "layerConfig": {
+                            "account": "wri-rw",
+                            "body": {
+                                "layers": [
+                                    {
+                                        "options": {
+                                            "cartocss": "#powerwatch_data_20180102 { ::halo { marker-width: 20; marker-fill: #ff7400; marker-fill-opacity: 1; marker-line-color: #ffc100; marker-line-width: 0; marker-line-opacity: 1; marker-placement: point; marker-type: ellipse; marker-allow-overlap: true; opacity: 0.3;} marker-fill:#ff7400; marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0; marker-fill-opacity: 1.0; marker-width: 4.0+8.0*[capacity_mw]/740.0; [capacity_mw>740]{marker-width:16}}",
+                                            "cartocss_version": "2.3.0",
+                                            "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Wind' ORDER BY capacity_mw ASC"
+                                        },
+                                        "type": "mapnik"
+                                    }
+                                ],
+                                "maxzoom": 18,
+                                "minzoom": 3,
+                                "vectorLayers": [
+                                    {
+                                        "filter": [
+                                            "<",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #ff7400",
+                                            "circle-opacity": 1,
+                                            "circle-stroke-color": " #ffc100",
+                                            "circle-stroke-opacity": 0.11,
+                                            "circle-stroke-width": 2,
+                                            "circle-radius": [
+                                                "+",
+                                                4,
+                                                [
+                                                    "*",
+                                                    [
+                                                        "get",
+                                                        "capacity_mw"
+                                                    ],
+                                                    0.010526315789473684
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "filter": [
+                                            ">=",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #ff7400",
+                                            "circle-opacity": 1,
+                                            "circle-stroke-color": " #ffc100",
+                                            "circle-stroke-opacity": 0.1,
+                                            "circle-stroke-width": 2,
+                                            "circle-radius": 12
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    }
+                                ]
+                            },
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Wind' ORDER BY capacity_mw ASC",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "filter": [
+                                            "<",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #ff7400",
+                                            "circle-opacity": 1,
+                                            "circle-stroke-color": " #ffc100",
+                                            "circle-stroke-opacity": 0.11,
+                                            "circle-stroke-width": 2,
+                                            "circle-radius": [
+                                                "+",
+                                                4,
+                                                [
+                                                    "*",
+                                                    [
+                                                        "get",
+                                                        "capacity_mw"
+                                                    ],
+                                                    0.010526315789473684
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    },
+                                    {
+                                        "filter": [
+                                            ">=",
+                                            "capacity_mw",
+                                            760
+                                        ],
+                                        "paint": {
+                                            "circle-color": " #ff7400",
+                                            "circle-opacity": 1,
+                                            "circle-stroke-color": " #ffc100",
+                                            "circle-stroke-opacity": 0.1,
+                                            "circle-stroke-width": 2,
+                                            "circle-radius": 12
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle"
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "items": [
+                                {
+                                    "color": "#ff7400",
+                                    "name": "Capacity (1MW-740MW)",
+                                    "id": 0
+                                }
+                            ],
+                            "type": "basic"
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Country",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "country_long"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Name",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "name"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Owner",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "owner"
+                                },
+                                {
+                                    "type": "number",
+                                    "suffix": " MW",
+                                    "property": "Capacity",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "capacity_mw"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Data Source",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "source"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T21:00:46.017Z",
+                        "updatedAt": "2021-12-22T17:50:04.611Z"
+                    }
+                },
+                {
+                    "id": "155968b5-7c59-4065-9e3a-0a81d52d50de",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Power Plants by Fuel Type",
+                        "slug": "Fuel-Type",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global power plants by fuel type. Includes coal, oil, gas, hydro, nuclear, solar, waste, wind, geothermal, and biomass.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "5980838ae24e6a1dae3dd446",
+                        "default": false,
+                        "protected": false,
+                        "published": true,
+                        "env": "production",
+                        "layerConfig": {
+                            "account": "wri-rw",
+                            "body": {
+                                "maxzoom": 18,
+                                "minzoom": 3,
+                                "layers": [
+                                    {
+                                        "type": "mapnik",
+                                        "options": {
+                                            "sql": "SELECT * FROM powerwatch_data_20180102",
+                                            "cartocss": "#powerwatch_data_20180102 {marker-fill-opacity:1; marker-width:3; marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0;[zoom > 2] {marker-width: 3;} [zoom > 3] {marker-width: 4;}[zoom > 5] {marker-width: 7;} [zoom > 7] {marker-width: 12;} [zoom > 9] {marker-width: 15;}} [primary_fuel='Coal']{marker-fill:#000000;}[primary_fuel='Oil']{marker-fill:#B15928;}[primary_fuel='Gas']{marker-fill:#BC80BD;}[primary_fuel='Hydro']{marker-fill:#1F78B4;}[primary_fuel='Nuclear']{marker-fill:#E31A1C;}[primary_fuel='Solar']{marker-fill:#FF7F00;}[primary_fuel='Waste']{marker-fill:#6A3D9A;}[primary_fuel='Wind']{marker-fill:#5CA2D1;}[primary_fuel='Geothermal']{marker-fill:#FDBF6F;}[primary_fuel='Biomass']{marker-fill:#229A00;}[primary_fuel='Others']{marker-fill:#B2DF8A;}",
+                                            "cartocss_version": "2.3.0"
+                                        }
+                                    }
+                                ],
+                                "vectorLayers": [
+                                    {
+                                        "paint": {
+                                            "circle-opacity": 1,
+                                            "circle-radius": 3,
+                                            "circle-stroke-width": 0.3,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-stroke-opacity": 0
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                2
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 4
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                3
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 7
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                5
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 12
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                7
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 15
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                9
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#000000"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Coal"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#B15928"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Oil"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#BC80BD"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Gas"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#1F78B4"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Hydro"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#E31A1C"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Nuclear"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#FF7F00"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Solar"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#6A3D9A"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Waste"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#5CA2D1"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Wind"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#FDBF6F"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Geothermal"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#229A00"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Biomass"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#B2DF8A"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Others"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "paint": {
+                                            "circle-opacity": 1,
+                                            "circle-radius": 3,
+                                            "circle-stroke-width": 0.3,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-stroke-opacity": 0
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                2
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 4
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                3
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 7
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                5
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 12
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                7
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-radius": 15
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                ">",
+                                                "zoom ",
+                                                9
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#000000"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Coal"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#B15928"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Oil"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#BC80BD"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Gas"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#1F78B4"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Hydro"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#E31A1C"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Nuclear"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#FF7F00"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Solar"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#6A3D9A"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Waste"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#5CA2D1"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Wind"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#FDBF6F"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Geothermal"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#229A00"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Biomass"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "paint": {
+                                            "circle-color": "#B2DF8A"
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                "primary_fuel",
+                                                "Others"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "items": [
+                                {
+                                    "color": "#000000",
+                                    "name": "Coal",
+                                    "id": 0
+                                },
+                                {
+                                    "color": "#B15928",
+                                    "name": "Oil",
+                                    "id": 1
+                                },
+                                {
+                                    "color": "#BC80BD",
+                                    "name": "Gas",
+                                    "id": 2
+                                },
+                                {
+                                    "color": "#1F78B4",
+                                    "name": "Hydro",
+                                    "id": 3
+                                },
+                                {
+                                    "color": "#E31A1C",
+                                    "name": "Nuclear",
+                                    "id": 4
+                                },
+                                {
+                                    "color": "#FF7F00",
+                                    "name": "Solar",
+                                    "id": 5
+                                },
+                                {
+                                    "color": "#6A3D9A",
+                                    "name": "Waste",
+                                    "id": 6
+                                },
+                                {
+                                    "color": "#5CA2D1",
+                                    "name": "Wind",
+                                    "id": 7
+                                },
+                                {
+                                    "color": "#FDBF6F",
+                                    "name": "Geothermal",
+                                    "id": 8
+                                },
+                                {
+                                    "color": "#229A00",
+                                    "name": "Biomass",
+                                    "id": 9
+                                },
+                                {
+                                    "color": "#B2DF8A",
+                                    "name": "Others",
+                                    "id": 10
+                                }
+                            ],
+                            "type": "basic"
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "column": "country_long",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Country",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "name",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Name",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "owner",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Owner",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "primary_fuel",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Fuel Type",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "capacity_mw",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Capacity",
+                                    "suffix": " MW",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "source",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Data Source",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T21:00:45.071Z",
+                        "updatedAt": "2021-12-22T17:32:30.947Z"
+                    }
+                },
+                {
+                    "id": "2a694289-fec9-4bfe-a6d2-56c3864ec349",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Power Plants by Capacity (MW) and Fuel Type",
+                        "slug": "Capacity-MW",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global power plants by capacity in megawatts and fuel type. Includes coal, oil, gas, hydro, nuclear, solar, waste, wind, geothermal, and biomass.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "5980838ae24e6a1dae3dd446",
+                        "default": true,
+                        "protected": false,
+                        "published": true,
+                        "thumbnailUrl": "https://s3.amazonaws.com/wri-api-backups/resourcewatch/prod/thumbnails/2a694289-fec9-4bfe-a6d2-56c3864ec349-1644512270644.png",
+                        "env": "production",
+                        "layerConfig": {
+                            "body": {
+                                "layers": [
+                                    {
+                                        "options": {
+                                            "cartocss_version": "2.3.0",
+                                            "cartocss": "#powerwatch_data_20180102 { marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0;}[capacity_mw <= 1500] {marker-fill-opacity: 0.6;}[capacity_mw > 1500] {marker-fill-opacity: 0.8;} [capacity_mw > 1500]{marker-width: 12.0+8.0*[capacity_mw]/22500.0;} [capacity_mw <= 1500]{marker-width: 4.0+8.0*[capacity_mw]/1500.0;} [primary_fuel='Coal']{marker-fill:#000000;}[primary_fuel='Oil']{marker-fill:#B15928;}[primary_fuel='Gas']{marker-fill:#BC80BD;}[primary_fuel='Hydro']{marker-fill:#1F78B4;}[primary_fuel='Nuclear']{marker-fill:#E31A1C;}[primary_fuel='Solar']{marker-fill:#FF7F00;}[primary_fuel='Waste']{marker-fill:#6A3D9A;}[primary_fuel='Wind']{marker-fill:#5CA2D1;}[primary_fuel='Geothermal']{marker-fill:#FDBF6F;}[primary_fuel='Biomass']{marker-fill:#229A00;}[primary_fuel='Others']{marker-fill:#B2DF8A;} [capacity_mw>=9000]{marker-width:10;}",
+                                            "sql": "SELECT * FROM powerwatch_data_20180102"
+                                        },
+                                        "type": "mapnik"
+                                    }
+                                ],
+                                "maxzoom": 18,
+                                "vectorLayers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": [
+                                                "match",
+                                                [
+                                                    "get",
+                                                    "primary_fuel"
+                                                ],
+                                                "Coal",
+                                                "#000",
+                                                "Oil",
+                                                "#B15928",
+                                                "Gas",
+                                                "#BC80BD",
+                                                "Hydro",
+                                                "#1F78B4",
+                                                "Nuclear",
+                                                "#E31A1C",
+                                                "Solar",
+                                                "#FF7F00",
+                                                "Waste",
+                                                "#6A3D9A",
+                                                "Wind",
+                                                "#5CA2D1",
+                                                "Geothermal",
+                                                "#FDBF6F",
+                                                "Biomass",
+                                                "#229A00",
+                                                "Others",
+                                                "#B2DF8A",
+                                                "#B2DF8A"
+                                            ],
+                                            "circle-stroke-width": 0.2,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.9,
+                                            "circle-stroke-opacity": 0.5,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "sqrt",
+                                                            [
+                                                                "/",
+                                                                [
+                                                                    "get",
+                                                                    "capacity_mw"
+                                                                ],
+                                                                [
+                                                                    "pi"
+                                                                ]
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "sqrt",
+                                                            [
+                                                                "/",
+                                                                [
+                                                                    "get",
+                                                                    "capacity_mw"
+                                                                ],
+                                                                [
+                                                                    "pi"
+                                                                ]
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "layout": {
+                                            "circle-sort-key": [
+                                                "get",
+                                                "capacity_mw"
+                                            ]
+                                        },
+                                        "filter": [
+                                            "all"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "account": "wri-rw",
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": [
+                                                "match",
+                                                [
+                                                    "get",
+                                                    "primary_fuel"
+                                                ],
+                                                "Coal",
+                                                "#000",
+                                                "Oil",
+                                                "#B15928",
+                                                "Gas",
+                                                "#BC80BD",
+                                                "Hydro",
+                                                "#1F78B4",
+                                                "Nuclear",
+                                                "#E31A1C",
+                                                "Solar",
+                                                "#FF7F00",
+                                                "Waste",
+                                                "#6A3D9A",
+                                                "Wind",
+                                                "#5CA2D1",
+                                                "Geothermal",
+                                                "#FDBF6F",
+                                                "Biomass",
+                                                "#229A00",
+                                                "Others",
+                                                "#B2DF8A",
+                                                "#B2DF8A"
+                                            ],
+                                            "circle-stroke-width": 0.2,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.9,
+                                            "circle-stroke-opacity": 0.5,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "sqrt",
+                                                            [
+                                                                "/",
+                                                                [
+                                                                    "get",
+                                                                    "capacity_mw"
+                                                                ],
+                                                                [
+                                                                    "pi"
+                                                                ]
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "sqrt",
+                                                            [
+                                                                "/",
+                                                                [
+                                                                    "get",
+                                                                    "capacity_mw"
+                                                                ],
+                                                                [
+                                                                    "pi"
+                                                                ]
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "layout": {
+                                            "circle-sort-key": [
+                                                "get",
+                                                "capacity_mw"
+                                            ]
+                                        },
+                                        "filter": [
+                                            "all"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "items": [
+                                {
+                                    "color": "#000000",
+                                    "name": "Coal",
+                                    "id": 0
+                                },
+                                {
+                                    "color": "#B15928",
+                                    "name": "Oil",
+                                    "id": 1
+                                },
+                                {
+                                    "color": "#BC80BD",
+                                    "name": "Gas",
+                                    "id": 2
+                                },
+                                {
+                                    "color": "#1F78B4",
+                                    "name": "Hydro",
+                                    "id": 3
+                                },
+                                {
+                                    "color": "#E31A1C",
+                                    "name": "Nuclear",
+                                    "id": 4
+                                },
+                                {
+                                    "color": "#FF7F00",
+                                    "name": "Solar",
+                                    "id": 5
+                                },
+                                {
+                                    "color": "#6A3D9A",
+                                    "name": "Waste",
+                                    "id": 6
+                                },
+                                {
+                                    "color": "#5CA2D1",
+                                    "name": "Wind",
+                                    "id": 7
+                                },
+                                {
+                                    "color": "#FDBF6F",
+                                    "name": "Geothermal",
+                                    "id": 8
+                                },
+                                {
+                                    "color": "#229A00",
+                                    "name": "Biomass",
+                                    "id": 9
+                                },
+                                {
+                                    "color": "#B2DF8A",
+                                    "name": "Others",
+                                    "id": 10
+                                }
+                            ],
+                            "type": "basic"
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "column": "country_long",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Country",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "name",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Name",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "primary_fuel",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Fuel Type",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "owner",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Owner",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "capacity_mw",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Capacity",
+                                    "suffix": " MW",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "source",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Data Source",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T21:00:44.622Z",
+                        "updatedAt": "2022-02-10T16:57:50.566Z"
+                    }
+                },
+                {
+                    "id": "d0a1ae43-6a14-443b-86d6-d01dfac842fa",
+                    "type": "layer",
+                    "attributes": {
+                        "name": "Solar Power Plants by Capacity (MW)",
+                        "slug": "Solar-Power-Plants-by-Capacity-MW",
+                        "dataset": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                        "description": "Global solar power plants by capacity in megawatts.",
+                        "application": [
+                            "rw"
+                        ],
+                        "iso": [],
+                        "provider": "cartodb",
+                        "type": "layer",
+                        "userId": "5b4fa642e995f09ac0e4a829",
+                        "default": false,
+                        "protected": false,
+                        "published": true,
+                        "env": "production",
+                        "layerConfig": {
+                            "account": "wri-rw",
+                            "body": {
+                                "maxzoom": 18,
+                                "layers": [
+                                    {
+                                        "type": "mapnik",
+                                        "options": {
+                                            "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Solar' ORDER BY capacity_mw ASC",
+                                            "cartocss": "#powerwatch_data_20180102 { marker-line-width:0.3; marker-line-color:#FFF; marker-allow-overlap: true; marker-line-opacity:0;}[capacity_mw <= 1500] {marker-fill-opacity: 0.6;}[capacity_mw > 1500] {marker-fill-opacity: 0.8;} [capacity_mw > 1500]{marker-width: 12.0+8.0*[capacity_mw]/22500.0;} [capacity_mw <= 1500]{marker-width: 4.0+8.0*[capacity_mw]/1500.0;} [primary_fuel='Solar']{marker-fill:#FF7F00;} [capacity_mw>=9000]{marker-width:10;}",
+                                            "cartocss_version": "2.3.0"
+                                        }
+                                    }
+                                ],
+                                "vectorLayers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": "#FF7F00",
+                                            "circle-stroke-width": 0.2,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.8,
+                                            "circle-stroke-opacity": 0.7,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                [
+                                                    "get",
+                                                    "primary_fuel"
+                                                ],
+                                                "Solar"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            "layerType": "vector",
+                            "type": "vector",
+                            "lmMetadata": {
+                                "version": "4.0",
+                                "legacy-keys": [
+                                    "account",
+                                    "layerType",
+                                    "body"
+                                ]
+                            },
+                            "source": {
+                                "type": "vector",
+                                "provider": {
+                                    "type": "carto",
+                                    "account": "wri-rw",
+                                    "layers": [
+                                        {
+                                            "options": {
+                                                "sql": "SELECT * FROM powerwatch_data_20180102 WHERE primary_fuel='Solar' ORDER BY capacity_mw ASC",
+                                                "type": "cartodb"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "render": {
+                                "layers": [
+                                    {
+                                        "paint": {
+                                            "circle-color": "#FF7F00",
+                                            "circle-stroke-width": 0.2,
+                                            "circle-stroke-color": "#FFF",
+                                            "circle-opacity": 0.8,
+                                            "circle-stroke-opacity": 0.7,
+                                            "circle-radius": [
+                                                "interpolate",
+                                                [
+                                                    "linear"
+                                                ],
+                                                [
+                                                    "zoom"
+                                                ],
+                                                0,
+                                                [
+                                                    "+",
+                                                    0.1,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        20
+                                                    ]
+                                                ],
+                                                12,
+                                                [
+                                                    "+",
+                                                    4,
+                                                    [
+                                                        "/",
+                                                        [
+                                                            "/",
+                                                            [
+                                                                "sqrt",
+                                                                [
+                                                                    "*",
+                                                                    [
+                                                                        "get",
+                                                                        "capacity_mw"
+                                                                    ],
+                                                                    [
+                                                                        "pi"
+                                                                    ]
+                                                                ]
+                                                            ],
+                                                            [
+                                                                "pi"
+                                                            ]
+                                                        ],
+                                                        3
+                                                    ]
+                                                ]
+                                            ]
+                                        },
+                                        "source-layer": "layer0",
+                                        "type": "circle",
+                                        "filter": [
+                                            "all",
+                                            [
+                                                "==",
+                                                [
+                                                    "get",
+                                                    "primary_fuel"
+                                                ],
+                                                "Solar"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "legendConfig": {
+                            "items": [
+                                {
+                                    "color": "#FF7F00",
+                                    "name": "Capacity (1MW-650MW)",
+                                    "id": 0
+                                }
+                            ],
+                            "type": "basic"
+                        },
+                        "interactionConfig": {
+                            "output": [
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Country",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "country_long"
+                                },
+                                {
+                                    "type": "string",
+                                    "suffix": "",
+                                    "property": "Name",
+                                    "prefix": "",
+                                    "format": null,
+                                    "column": "name"
+                                },
+                                {
+                                    "column": "owner",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Owner",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "capacity_mw",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Capacity",
+                                    "suffix": "MW",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "source",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Data Source",
+                                    "suffix": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "column": "generation_gwh_2018",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Reported Generation (2018)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                },
+                                {
+                                    "column": "estimated_generation_gwh_2017",
+                                    "format": null,
+                                    "prefix": "",
+                                    "property": "Estimated Generation (2017)",
+                                    "suffix": " GWh",
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "applicationConfig": {},
+                        "staticImageConfig": {},
+                        "createdAt": "2019-09-24T20:40:22.801Z",
+                        "updatedAt": "2021-12-22T18:06:57.240Z"
+                    }
+                }
+            ],
+            "vocabulary": [
+                {
+                    "type": "vocabulary",
+                    "attributes": {
+                        "resource": {
+                            "id": "a86d906d-9862-4783-9e30-cdb68cd808b8",
+                            "type": "dataset"
+                        },
+                        "tags": [
+                            "energy",
+                            "power_plant",
+                            "energy_infrastructure",
+                            "climate_change",
+                            "air_quality",
+                            "hydropower",
+                            "wind_energy",
+                            "solar_energy",
+                            "coal",
+                            "global",
+                            "geospatial",
+                            "vector",
+                            "historical"
+                        ],
+                        "name": "knowledge_graph",
+                        "application": "rw"
+                    }
+                }
+            ],
+            "widgetRelevantProps": [
+                "country",
+                "country_long",
+                "primary_fuel",
+                "gppd_idnr",
+                "name",
+                "capacity_mw",
+                "commissioning_year",
+                "generation_gwh_2013",
+                "generation_gwh_2014",
+                "generation_gwh_2015",
+                "generation_gwh_2016",
+                "generation_gwh_2017",
+                "estimated_generation_gwh_2017"
+            ],
+            "layerRelevantProps": [
+                "cartodb_id",
+                "the_geom",
+                "the_geom_webmercator",
+                "country",
+                "country_long",
+                "name",
+                "gppd_idnr",
+                "capacity_mw",
+                "latitude",
+                "longitude",
+                "commissioning_year",
+                "source",
+                "url",
+                "geolocation_source",
+                "year_of_capacity_data",
+                "generation_gwh_2013",
+                "owner",
+                "generation_gwh_2014",
+                "generation_gwh_2015",
+                "generation_gwh_2016",
+                "primary_fuel",
+                "other_fuel1",
+                "other_fuel2",
+                "other_fuel3",
+                "generation_gwh_2017",
+                "wepp_id",
+                "generation_gwh_2018",
+                "generation_gwh_2019",
+                "estimated_generation_gwh_2017"
+            ]
+        }
+    }
+}
