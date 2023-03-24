@@ -39,7 +39,7 @@ class App {
     private initializeRoutes(routes: Routes[]) {
         // logger.info('all routes - ', routes) 
         routes.forEach((route) => {
-            this.app.use('/', route.router);
+            this.app.use('/v1', route.router);
         });
     }
 

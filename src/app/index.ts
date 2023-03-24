@@ -1,6 +1,6 @@
 import App from './app';
-import UserRoute from './routes/app.route';
+import PowerPlantsRoute from './routes/app.route';
 
-const app = new App([new UserRoute()]);
+const app = new App([new PowerPlantsRoute()]);
 
 app.listen();

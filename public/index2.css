@@ -36,3 +36,37 @@ img {
     width: 20px;
     height: 20px;
 }
+.selection-type {
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 77%;
+    padding: 15px 10px;
+    width: 20%;
+    font-size: 14px;
+    color: #222;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 20px 2px black;
+    z-index: 9999;
+    text-align: center;
+}
+.selection-type select {
+    width: 70%;
+    padding: 5px 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.selection-type button {
+    width: 40%;
+    padding: 5px 5px;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.selection-type button:hover {
+    background-color: black;
+    color: white;
+}

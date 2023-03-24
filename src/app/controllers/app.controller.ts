@@ -1,22 +1,47 @@
 import { Request, Response } from 'express';
 import { ApiResponse } from '../middleware/api.response.middleware';
 import { StatusCodes } from 'http-status-codes';
-import UserService from '../services/app.service';
+import PowerPlantsService from '../services/app.service';
 // import { ApiResponse } from '../middlewares/api.response.middleware';
 // import { asyncMiddleware } from "../middlewares/error.handler.middleware";
 
-class UserController {
+class PowerPlantsController {
 
-    private userService;
+    private powerPlantsService;
 
     constructor() {
-        this.userService = new UserService();
+        this.powerPlantsService = new PowerPlantsService();
     }
 
-    public getData = async (req: Request, res: Response) => {
-            const response = await this.userService.getData();
-            ApiResponse.result(res, response, StatusCodes.OK);
-        }
+    public getAllPowerPlants = async (req: Request, res: Response) => {
+        const response = await this.powerPlantsService.getAllPowerPlants();
+        ApiResponse.result(res, response, StatusCodes.OK);
+    }
+
+    public getPowerPlantsByCountry = async (req: Request, res: Response) => {
+        const response = await this.powerPlantsService.getPowerPlantsByCountry(req.params.country);
+        ApiResponse.result(res, response, StatusCodes.OK);
+    }
+
+    public getPowerPlantsByFueltype = async (req: Request, res: Response) => {
+        const response = await this.powerPlantsService.getPowerPlantsByFueltype(req.params.fuel);
+        ApiResponse.result(res, response, StatusCodes.OK);
+    }
+
+    public getPowerPlantsByCountryAndFueltype = async (req: Request, res: Response) => {
+        const response = await this.powerPlantsService.getPowerPlantsByCountryAndFueltype(req.params.country, req.params.fuel);
+        ApiResponse.result(res, response, StatusCodes.OK);
+    }
+
+    public getCountries = async (req: Request, res: Response) => {
+        const response = await this.powerPlantsService.getCountries();
+        ApiResponse.result(res, response, StatusCodes.OK);
+    }
+
+    public getFueltypes = async (req: Request, res: Response) => {
+        const response = await this.powerPlantsService.getFueltypes();
+        ApiResponse.result(res, response, StatusCodes.OK);
+    }
 }
 
-export default UserController;
+export default PowerPlantsController;

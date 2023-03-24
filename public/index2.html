@@ -37,11 +37,20 @@
       <li><span><img src="../Icons/Nuclear.png" alt=""></span>Nuclear 195</li>
       <li><span><img src="../Icons/Geothermal.png" alt=""></span>Geothermal 189</li>
       <li><span><img src="../Icons/Storage.png" alt=""></span>Storage 135</li>
-      <li><span><img src="mapbox-icon.png" alt=""></span>Other 43</li>
+      <li><span><img src="../Icons/Other.png" alt=""></span>Other 43</li>
       <li><span><img src="../Icons/Cogeneration.png" alt=""></span>Cogeneration 41</li>
       <li><span><img src="../Icons/Petcoke.png" alt=""></span>Petcoke 12</li>
       <li><span><img src="../Icons/Wave and Tidal.png" alt=""></span>Wave & Tidal 10</li>
     </ul>
+  </div>
+  <div class="selection-type">
+    <select name="countries" id="countries">
+      <option value="All" selected>All Countries</option>
+    </select>
+    <select name="plants-type" id="plantsType">
+      <option value="All" selected>All Fueltypes</option>
+    </select> <br>
+    <button onclick="fetchMarkerData()">Submit</button>
   </div>
   <script type='text/javascript' src='index2.js'></script>
 </body>
